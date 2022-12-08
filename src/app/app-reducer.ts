@@ -79,12 +79,12 @@ export const initializeAppTC = () => (dispatch: Dispatch) => {
 
 }
 
-export type SetAppErrorActionType = ReturnType<typeof setAppErrorAC>
-export type SetAppStatusActionType = ReturnType<typeof setAppStatusAC>
-export type SetInitializedActionType = ReturnType<typeof setInitialized>
-
-
-type ActionsType =
-    | SetAppErrorActionType
-    | SetAppStatusActionType
-|SetInitializedActionType
+// export type SetAppErrorActionType = ReturnType<typeof setAppErrorAC>
+// export type SetAppStatusActionType = ReturnType<typeof setAppStatusAC>
+// export type SetInitializedActionType = ReturnType<typeof setInitialized>
+//
+//
+// type ActionsType =
+//     | SetAppErrorActionType
+//     | SetAppStatusActionType
+// |SetInitializedActionType
